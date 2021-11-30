@@ -1,0 +1,14 @@
+{
+    "name": "Zipcode Extension",
+    "description": "The zipcode of your region is ",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "zipcode.png"
+    },
+    "icons":{
+        "128": "zipcode.png"
+    },
+    "permissions": ["activeTab"]
+}
